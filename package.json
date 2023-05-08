@@ -1,0 +1,30 @@
+{
+  "name": "color-lib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "pnpm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepakkurmi5/color-lib.git"
+  },
+  "keywords": [
+    "color themes"
+  ],
+  "author": "Deepak kurmi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deepakkurmi5/color-lib/issues"
+  },
+  "homepage": "https://github.com/deepakkurmi5/color-lib#readme",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
